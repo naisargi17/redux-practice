@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.js",
+    "**/*.jsx",
+    ".next/types/**/*.ts",
+    "src/app/api/admin/products/createproduct/route.js",
+    "src/app/api/admin/products/updateproduct/route.js",
+    "src/app/verifyemail/page.js",
+    "src/app/updateproduct/[id]/page.js",
+    "src/app/signup/page.js",
+    "src/app/profile/page.js",
+    "src/app/admin/products/page.js",
+    "src/app/api/admin/products/updateproduct/[...id].js",
+    "src/app/createproduct/page.js",
+    "src/app/api/admin/users/verifyemail/route.js",
+    "src/app/api/admin/users/signup/route.js",
+    "src/app/api/admin/users/me/route.js",
+    "src/app/api/admin/users/logout/route.js",
+    "src/app/api/admin/users/login/route.js",
+    "src/app/api/admin/products/getproducts/route.js",
+    "src/helpers/mailer.js",
+    "src/helpers/getDataFromToken.js",
+    "src/dbConfig/dbConfig.js",
+    "src/app/login/page.js",
+    "src/app/layout.js",
+    "src/app/page.js"
+  ],
+  "exclude": ["node_modules"]
+}

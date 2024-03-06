@@ -1,0 +1,14 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
+body{
+  background-color: white;
+  color:black;
+}
+.color{
+  background-color: #858886;
+}
+
